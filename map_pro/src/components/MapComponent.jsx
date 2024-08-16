@@ -17,10 +17,10 @@ const CenterMap = ({ center }) => {
 };
 
 const MapComponent = () => {
-  const [mapCenter, setMapCenter] = useState([20.5937, 78.9629]);
+  const [mapCenter, setMapCenter] = useState([20.5937, 78.9629]); // Initial center: India
 
   return (
-    <MapContainer center={mapCenter} zoom={5} style={{ height: '1000px', width: '100%' }}>
+    <MapContainer center={mapCenter} zoom={5} style={{ height: '500px', width: '100%' }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

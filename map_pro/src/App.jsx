@@ -1,7 +1,8 @@
+// src/App.js or src/App.jsx
 import React from 'react';
 import MapComponent from './components/MapComponent';
-import 'leaflet/dist/leaflet.css';
-
+import './fix-leaflet-icon'; 
+import 'leaflet/dist/leaflet.css'; 
 
 function App() {
   return (
